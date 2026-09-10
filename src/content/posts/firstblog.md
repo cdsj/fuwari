@@ -27,6 +27,30 @@ Astro 非常适合内容型网站：
 - 部署简单
 <img width="714" height="401" alt="Codex 图像 2026年8月4日 11_53_36" src="https://github.com/user-attachments/assets/53984b17-612d-4066-adc1-a83b4e26dca9" />
 
+'''cpp
+package com.example.javaweb.controller;
+
+import org.springframework.util.StringUtils;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+
+    @GetMapping("/hello")
+    public String hello(
+            @RequestParam(required = false) String name) {
+
+        if (StringUtils.hasText(name)) {
+            return "你好，" + name;
+        }
+
+        return "你好，Java Web";
+    }
+}
+'''
+
 ## 总结
 
 以后我会在这里分享 AI、开源项目和网站开发方面的内容。
