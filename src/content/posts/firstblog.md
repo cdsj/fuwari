@@ -2,7 +2,7 @@
 title: 我的第一篇博客文章
 published: 2026-09-10
 description: 这是我的第一篇博客文章，介绍如何使用 Astro 和 Fuwari 搭建个人网站。
-image: "<img width="1283" height="813" alt="Snipaste_2026-02-07_23-49-11" src="https://github.com/user-attachments/assets/045267dc-eb3e-4dc5-8e59-b423d50616ce" />
+image: "<img width="1283" height="813" alt="Snipaste_2026-02-07_23-49-11" src="https://github.com/user-attachments/assets/045267dc-eb3e-4dc5-8e59-b423d50616ce/>" 
 "
 tags:
   - Astro
