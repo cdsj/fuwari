@@ -25,6 +25,7 @@ Astro 非常适合内容型网站：
 - SEO 友好
 - 支持 Markdown
 - 部署简单
+<img width="714" height="401" alt="Codex 图像 2026年8月4日 11_53_36" src="https://github.com/user-attachments/assets/53984b17-612d-4066-adc1-a83b4e26dca9" />
 
 ## 总结
 
